@@ -12,6 +12,10 @@ p {
   color: #8f8f8f;
 }
 
+.hidden{
+  visibility: hidden;
+}
+
 /* Headings */
 .big-heading {
   font-size: 3.5rem;
@@ -54,6 +58,7 @@ p {
 }
 
 .nav-item {
+  text-align: right;
   padding: 0 18px 0 18px;
 }
 
@@ -174,5 +179,9 @@ p {
   .title-image {
     position: static;
     transform: rotate(0);
+  }
+
+  .hidden {
+    display:none;
   }
 }
